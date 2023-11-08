@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    background-color: #F3F2EC;
+    font-family: SuisseIntl-Regular;
+}
+
+/* Lettertypes */
+
+@font-face {
+    font-family: 'SuisseIntl-Regular';
+    src: url('../fonts/SuisseIntl-Regular.otf');
+}
+
+@font-face {
+    font-family: 'SuisseIntl-Medium';
+    src: url('../fonts/SuisseIntl-Medium.otf');
+}
+
+@font-face {
+    font-family: 'SuisseIntl-SemiBold';
+    src: url('../fonts/SuisseIntl-SemiBold.otf');
+}
+
+/* Standaard Lettertypes */
+
+h2 {  
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'SuisseIntl-SemiBold';
+    font-weight: normal;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+p {  
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sections */
+
+.green-section {
+    background-color: #C4C2B5;
+    padding: 20px;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .beige-section {
+    background-color: #DBD9D2;
+    padding: 20px;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .Black-section {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  /* Buttons */
+
+  
+
+
+
+  /* Style for the button */
+.button {
+    background-color: #333333; /* Blue background color, you can change this */
+    color: #ffffff; /* Text color */
+    border: none;
+    padding: 20px; /* Set padding for top and bottom, and set left and right padding to 0 */
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 40px); /* Calculate the width to account for the 20px margin on each side */
+    margin: 20px; /* Add a 20px margin around the button */
+  }
+  
+  
+  
+  /* Style for the text on the left */
+  .text {
+    margin-right: 20px; /* Add spacing between text and arrow */
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+  }
+  
+  /* Style for the arrow on the right */
+  .arrow {
+    font-size: 20px; /* Adjust arrow size as needed */
+  }
+  
+  /* Style for the button with the "black" class */
+  .black {
+    background-color: #000; /* Black background color */
+    color: #fff; /* Text color */
+  }
+  
+  .black:hover {
+    background-color: #F3F2EC;
+    color: #333333; /* Text and icon color changes to black on hover */
+    border: 1px solid #333333; /* Add a black border on hover */
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+  }
+  

@@ -1,0 +1,18 @@
+/* Lettertypes */
+
+@font-face {
+    font-family: 'FSMe-Light';
+    src: url('../fonts/FSMe-Light.ttf');
+}
+
+@font-face {
+    font-family: 'FSMe-Regular';
+    src: url('../fonts/FSMe.ttf');
+}
+
+@font-face {
+    font-family: 'FSMe-Bold';
+    src: url('../fonts/FSMe-Bold.ttf');
+}
+
+
